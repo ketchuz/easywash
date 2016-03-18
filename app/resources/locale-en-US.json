@@ -1,0 +1,10 @@
+{
+	"directives.language-select.Language" : "Language",
+	"views": {
+		"main": {
+			"Splendid!" : "Splendid!",
+			"title": "My Laptop",
+			"couch": "A couch"
+		}
+	}
+}
