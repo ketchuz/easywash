@@ -1,18 +1,19 @@
 app = angular.module 'easyWash'
 
 app.config [ '$routeProvider', '$locationProvider', ($routeProvider, $locationProvider) ->
-
-	$locationProvider.html5Mode
-	  enabled: true
-	  requireBase: false
 	
 
 	$routeProvider
 		.when '/',
 			templateUrl: '../../components/home/home.html'
 			controller: 'HomeCtrl'
+		.when '/services',
+			templateUrl: '../../components/services/services.html'
 		.otherwise
             redirectTo: '/'
+
+    $locationProvider.html5Mode false 
+
         
 
 ]
