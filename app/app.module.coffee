@@ -1,4 +1,4 @@
-app = angular.module 'easyWash', ['ngCookies', 'pascalprecht.translate', 'tmh.dynamicLocale']
+app = angular.module 'easyWash', ['ngCookies', 'pascalprecht.translate', 'tmh.dynamicLocale', 'ngRoute']
 
 app.config ['$translateProvider', 'tmhDynamicLocaleProvider', ($translateProvider, tmhDynamicLocaleProvider) ->
 

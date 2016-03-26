@@ -1,0 +1,230 @@
+body {
+	overflow-x: hidden;
+}
+
+#header {
+
+	background-color: black;
+	
+	.container{
+		padding: 55px 0 30px 0;
+
+		.links {
+
+			i {    
+			 padding: 18px 14px 0px 9px;
+			 font-size: 22px;
+			 line-height: 28px;
+			}
+
+			.icon-white {
+				color: white;
+				margin-right: 10px;
+				font-size: 25px;
+			}
+
+			.icon-stack {
+
+				i {
+					color: white;
+					padding: 0px;
+					font-size: 14px;
+				}
+				
+
+				p {
+					margin: 0px;
+					color: white;
+				}
+			}
+
+			.icon {
+				display: inline-block;
+				margin-right: 15px;			    
+				width: 30px;
+			    background-size: cover;
+			    background-repeat: no-repeat;
+			    background-image: url("../img/whiteDrop.svg");
+			    height: auto;
+			}
+		}
+	}
+
+}
+
+// NAVBAR
+.navbar-default {
+    background-color: $orange-color;
+    border-color: $orange-color;	
+}
+  .navbar-nav {
+    width: 100%;
+    padding: 25px 0;
+    // background-color: $orange-color;
+    text-align: center;
+    > li {
+    	color: white;	
+	      float: none;
+	      display: inline-block;
+	      font-size: 1.1em;
+	      font-family: exo-2-bold;
+
+	      > a {
+	      	color: white;
+	      }
+    }
+  }
+  .navbar-default .navbar-nav > li > a {
+      color: white;
+  }
+
+  .navbar {
+  	margin-bottom: 0;
+  }
+
+// SLIDER
+
+#slider {
+
+	.container-fluid {
+		padding: 0;
+	}
+} 
+
+// HOME SECTION
+#home-invest {
+
+	background-image: url("../img/TexturaHojas.jpg");
+	background-size: cover;
+
+	.container-fluid {
+		padding: 0;
+	}
+
+	.holder {
+		background-image: url("../img/Textura_Lineas.jpg");
+		background-size: contain;
+		margin: 45px 0;
+		color: white;
+		padding: 150px 0;
+		background-color: black;
+		font-family: exo-2;
+
+
+		a {
+			font-family: exo-2-light;
+			background-color: transparent;
+			border-color: $orange-color;
+			padding: 3px 50px;
+
+
+			&:hover {
+				background-color: $orange-color;
+			}
+
+		}
+		
+		h2, h3 {
+			margin:0;
+		}
+	
+		h3 {
+			font-family: exo-2-light;
+			margin-bottom: 30px;
+
+		}
+	}
+}
+
+// HOME SERVICES
+#home-services {
+
+	.holder {
+		h1, h2 {
+			font-family: exo-2-bold;
+		}
+
+		font-family: exo-2-light;
+		background-image: url("../img/black-texture.png");
+		background-size: cover;
+		margin: 150px 30px;
+		padding: 10px 25px;
+		color: white;
+
+	}
+
+	.holder1 {
+	    background-image: url("../img/service1.jpg");
+	    background-size: cover;
+		.holder {
+			background-image: url("../img/orange-texture.png");
+
+		}
+
+	}
+
+	.holder2{ 
+		background-image: url("../img/service2.jpg");
+		background-size: 140%;
+		background-position: 10% 50%;
+		background-repeat: no-repeat;
+
+		.holder {
+			background-image: url("../img/black-texture.png");
+		}
+	}
+
+	.holder3 {
+		background-image: url("../img/service3.jpg");
+		background-size: cover;
+		background-position: 50%;
+
+	}
+
+	
+}
+
+
+#home-time {
+	font-family: exo-2;
+	color: white;
+	background: 
+	   linear-gradient(
+	     rgba(35, 32, 31, 0.6), 
+	     rgba(35, 32, 31, 0.6)
+	   ),
+	   url("../img/Acura-ILX-motor1.jpg");
+	background-size: cover;
+
+	.container-fluid {
+		padding: 0;
+	}
+
+	img {
+		padding-top: 25px;
+		position: absolute;
+		top: 0;
+		-moz-transform: scaleX(-1);
+		-o-transform: scaleX(-1);
+		-webkit-transform: scaleX(-1);
+		transform: scaleX(-1);
+	}
+
+	.title {
+		padding: 125px 0;
+	}
+
+	.row {
+		margin: 60px 0;
+		background-image: url("../img/time-bg.png");
+	}
+}
+
+#footer {
+	background-color: $orange-color;
+
+	img {
+		margin: 10px;
+    	max-width: 50%;
+	}
+}

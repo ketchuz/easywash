@@ -1,0 +1,34 @@
+{
+  "name": "easywash",
+  "description": "Easy Wash Company Web Page",
+  "main": "Gruntfile.js",
+  "authors": [
+    "Jesus Esparza <jesus.esparza.c4@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ketchuz/easywash",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/assets/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-animate": "^1.5.1",
+    "angular-i18n": "^1.5.1",
+    "angular-dynamic-locale": "^0.1.30",
+    "angular-route": "^1.5.1",
+    "angular-translate-loader-static-files": "^2.10.0",
+    "angular-translate-storage-local": "^2.10.0",
+    "angular-translate-handler-log": "^2.10.0",
+    "angular-translate": "^2.10.0",
+    "angular": "^1.5.1",
+    "animate.css": "^3.5.1",
+    "bootstrap-sass": "^3.3.6",
+    "font-awesome": "^4.5.0",
+    "components-font-awesome": "^4.5.0"
+  }
+}

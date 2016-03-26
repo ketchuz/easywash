@@ -1,1 +1,21 @@
+$fa-font-path: "../bower_components/components-font-awesome/fonts";
+$orange-color: #F05A28;
+
+@font-face {
+    font-family: exo-2-bold;
+    src: url(../fonts/Exo2-Bold.otf);
+}
+
+@font-face {
+	font-family: exo-2;
+	src: url(../fonts/Exo2-Regular.otf)
+}
+
+@font-face {
+	font-family: exo-2-light;
+	src: url(../fonts/Exo2-Light.otf)
+}
+
+@import '../bower_components/components-font-awesome/scss/font-awesome.scss';
 @import '../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+@import 'home';
