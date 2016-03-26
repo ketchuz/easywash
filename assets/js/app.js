@@ -26,16 +26,15 @@
 
   app.config([
     '$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
-      $locationProvider.html5Mode({
-        enabled: true,
-        requireBase: false
-      });
-      return $routeProvider.when('/', {
+      $routeProvider.when('/', {
         templateUrl: '../../components/home/home.html',
         controller: 'HomeCtrl'
+      }).when('/services', {
+        templateUrl: '../../components/services/services.html'
       }).otherwise({
         redirectTo: '/'
       });
+      return $locationProvider.html5Mode(false);
     }
   ]);
 
