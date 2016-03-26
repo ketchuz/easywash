@@ -1,7 +1,7 @@
 (function() {
   var app;
 
-  app = angular.module('easyWash', ['ngCookies', 'pascalprecht.translate', 'tmh.dynamicLocale']);
+  app = angular.module('easyWash', ['ngCookies', 'pascalprecht.translate', 'tmh.dynamicLocale', 'ngRoute']);
 
   app.config([
     '$translateProvider', 'tmhDynamicLocaleProvider', function($translateProvider, tmhDynamicLocaleProvider) {
@@ -20,7 +20,24 @@
 }).call(this);
 
 (function() {
+  var app;
 
+  app = angular.module('easyWash');
+
+  app.config([
+    '$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
+      $locationProvider.html5Mode({
+        enabled: true,
+        requireBase: false
+      });
+      return $routeProvider.when('/', {
+        templateUrl: '../../components/home/home.html',
+        controller: 'HomeCtrl'
+      }).otherwise({
+        redirectTo: '/'
+      });
+    }
+  ]);
 
 }).call(this);
 
@@ -31,7 +48,10 @@
 
   app.controller('HomeCtrl', [
     '$scope', function($scope) {
-      return $scope.contact = 'This is an user';
+      $scope.contact = 'This is an Tommy';
+      return $scope.sayHi = function() {
+        return alert('hello tomy');
+      };
     }
   ]);
 

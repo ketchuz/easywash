@@ -1,10 +1,20 @@
 {
-	"directives.language-select.Language" : "Language",
+	"directives.language-select.Language" : "LANGUAGE",
 	"views": {
 		"main": {
 			"Splendid!" : "Splendid!",
 			"title": "My Laptop",
 			"couch": "A couch"
-		}
+			},
+		"home": {
+			"menu": {
+				"company": "COMPANY",
+				"philosophy": "PHILOSOPHY",
+				"services": "SERVICES",
+				"service-points": "SERVICE POINTS",
+				"contact": "CONTACT",
+				"franchise": "FRANCHISES"
+			}
+		} 
 	}
 }
