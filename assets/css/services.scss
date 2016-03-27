@@ -1,0 +1,115 @@
+$light-blue: #0B4F76;
+$darker-blue : #003555;
+
+#easy-fast, #easy-cool, #easy-full {
+	font-family: exo-2;
+	color: white;
+
+	background-image: url("../img/Fondo.jpg");
+	padding-bottom: 60px;
+	background-position-y: 2%;
+	background-size: cover;
+
+	h1 {
+		font-family: exo-2-bold;
+		font-size: 42pt;
+		color: white;
+	}
+
+	.sizes {
+		margin: 20px 0;
+		display: inline-block;
+		margin-top: 10px;
+		font-size: 15pt;
+		color: white;
+	}
+
+	.washing-holder {
+		
+		margin: 10px 0;
+		margin-top: 0;
+
+		.washing-num {
+			background-color: $light-blue;
+			color: white;
+			font-size: 14pt;
+			padding: 2px 10px;
+			margin: 0 5px;
+		}
+
+		.odd {
+		    background-color: $darker-blue;
+		}
+	}
+	
+
+	.icon {
+		margin: 0 25px;
+		max-width: 50px;
+	}
+
+	.img-holder {
+		position: absolute;
+		bottom: 0;
+
+		img {	
+		}
+	}
+}
+
+#easy-fast {
+
+	.row {
+		padding: 25px 0;
+		background-image: url("../img/_servicio1.jpg"), url("../img/Textura_Puntos.jpg");
+    	background-repeat: no-repeat, repeat;
+    	background-size: cover, contain;
+	}
+
+	.img-holder > img {
+
+			-moz-transform: scaleX(-1);
+			-o-transform: scaleX(-1);
+			-webkit-transform: scaleX(-1);
+			transform: scaleX(-1);
+	}
+
+
+}
+
+#easy-cool {
+	.row {
+		padding: 25px 0;
+		background-image: url("../img/Textura_Lineas.jpg"), url('..img/icon2.svg');
+	    background-repeat: repeat, no-repeat;
+	    background-size: cover;
+	    position: relative;
+	}
+
+	.img-container {
+		position: absolute;
+		bottom: 25px;
+	}
+
+	.img-holder > img {
+		position: absolute;
+		bottom: -50px;
+	}
+}
+
+#easy-full {
+	padding-bottom: 100px;
+
+		.row {
+			position: relative;
+			padding: 25px 0;
+			background-image: url("../img/1_servicio.jpg"), url("../img/Textura_Puntos.jpg");
+	    	background-repeat: no-repeat, repeat;
+	    	background-size: cover, contain;
+		}
+
+		.img-holder > img {
+			position: absolute;
+			bottom: -65px;
+		}
+}
