@@ -9,6 +9,8 @@ app.config [ '$routeProvider', '$locationProvider', ($routeProvider, $locationPr
 			controller: 'HomeCtrl'
 		.when '/services',
 			templateUrl: '../../components/services/services.html'
+		.when '/servicepoints',
+			templateUrl: '../../components/service-points/servicePoints.html'
 		.otherwise
             redirectTo: '/'
 

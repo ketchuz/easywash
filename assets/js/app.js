@@ -31,6 +31,8 @@
         controller: 'HomeCtrl'
       }).when('/services', {
         templateUrl: '../../components/services/services.html'
+      }).when('/servicepoints', {
+        templateUrl: '../../components/service-points/servicePoints.html'
       }).otherwise({
         redirectTo: '/'
       });
@@ -50,6 +52,52 @@
       $scope.contact = 'This is an Tommy';
       return $scope.sayHi = function() {
         return alert('hello tomy');
+      };
+    }
+  ]);
+
+}).call(this);
+
+(function() {
+  var app;
+
+  app = angular.module('easyWash');
+
+  app.controller('contactFormCtrl', [
+    '$scope', function($scope) {
+      $scope.test = 'Contorller ';
+      return $scope.sendForm = function() {
+        return alert('Sending form');
+      };
+    }
+  ]);
+
+}).call(this);
+
+(function() {
+  var app;
+
+  app = angular.module('easyWash');
+
+  app.directive('contactForm', [
+    function() {
+      return {
+        templateUrl: 'shared/contact/contactForm.html'
+      };
+    }
+  ]);
+
+}).call(this);
+
+(function() {
+  var app;
+
+  app = angular.module('easyWash');
+
+  app.directive('myDirectory', [
+    function() {
+      return {
+        templateUrl: 'shared/directory/directory.html'
       };
     }
   ]);
