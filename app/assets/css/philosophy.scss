@@ -1,0 +1,60 @@
+#philosophy {
+	background-image: url("../img/Puntos copy.jpg");
+	background-size: 35px;
+	background-repeat: repeat;
+
+	padding-top: 50px;
+	padding-bottom: 100px;
+	color: white;
+	font-family: exo-2-light;
+
+	.text {
+		
+		padding: 50px 0;
+
+		h4, p {
+			margin-bottom: 45px;
+		}	
+		span {
+			color: #C4D82D;
+		}
+	}
+
+	.img-holder { 
+		padding: 40px 0;
+
+		p {
+			margin: 0;
+			padding: 50px 0;
+			color: #00B2B0;
+		}
+	}
+
+	.img-holder:nth-of-type(1) { 
+		background-image: url("../img/service1.jpg"); 
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.img-holder:nth-of-type(2) { 
+		background: 
+		linear-gradient(
+			rgba(32, 12, 19, 0.8), 
+			rgba(32, 12, 19, 0.8)
+			),
+		url("../img/FAMILIA.jpg");
+		// background-image: url("../img/FAMILIA.jpg"); 
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.img-holder:nth-of-type(3) { 
+		background-image: url("../img/DSC07092.jpg"); 
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+
+
+
+}

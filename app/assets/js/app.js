@@ -29,6 +29,8 @@
       $routeProvider.when('/', {
         templateUrl: '../../components/home/home.html',
         controller: 'HomeCtrl'
+      }).when('/philosophy', {
+        templateUrl: '../../components/philosophy/philosophy.html'
       }).when('/company', {
         templateUrl: '../../components/company/company.html'
       }).when('/services', {
