@@ -8100,9 +8100,9 @@ body {
     bottom: -65px; }
 
 #point-map {
-  background-image: url("../img/Textura_Puntos.jpg");
+  background-image: url("../img/Puntos copy.jpg");
   background-repeat: repeat;
-  background-size: cover;
+  background-size: 35px;
   font-family: exo-2;
   color: white;
   padding: 50px 0; }
@@ -8124,9 +8124,9 @@ body {
   #banner .row {
     position: relative;
     padding: 75px 0;
-    background-image: url("../img/_servicio1.jpg"), url("../img/Textura_Puntos.jpg");
+    background-image: url("../img/_servicio1.jpg"), url("../img/Puntos copy.jpg");
     background-repeat: no-repeat, repeat;
-    background-size: cover, contain; }
+    background-size: cover, 35px; }
   #banner h1 {
     font-family: exo-2-bold;
     font-size: 20pt;
@@ -8137,9 +8137,9 @@ body {
 
 #point-contact {
   padding: 100px 0;
-  background-image: url("../img/Textura_Puntos.jpg");
+  background-image: url("../img/Puntos copy.jpg");
   background-repeat: repeat;
-  background-size: cover;
+  background-size: 35px;
   color: white;
   font-family: exo-2-light; }
   #point-contact .directory {
