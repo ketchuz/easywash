@@ -1,8 +1,8 @@
 #point-map {
 
-	background-image: url('../img/Textura_Puntos.jpg');
+	background-image: url('../img/Puntos copy.jpg');
 	background-repeat: repeat;
-	background-size: cover;
+	background-size: 35px;
 
 	font-family: exo-2;
 	color: white;
@@ -39,9 +39,9 @@
 	.row {
 		position: relative;
 		padding: 75px 0;
-		background-image: url("../img/_servicio1.jpg"), url("../img/Textura_Puntos.jpg");
+		background-image: url("../img/_servicio1.jpg"), url("../img/Puntos copy.jpg");
 		background-repeat: no-repeat, repeat;
-		background-size: cover, contain;
+		background-size: cover, 35px;
 	}
 
 	color: white;
@@ -62,10 +62,10 @@
 
 #point-contact {
 	padding: 100px 0;
-	background-image: url("../img/Textura_Puntos.jpg");
+	background-image: url("../img/Puntos copy.jpg");
 	// background-image: url(http://goo.gl/h6wLLg);
 	background-repeat: repeat;
-	background-size: cover;
+	background-size: 35px;
 
 	color: white;
 	font-family: exo-2-light;
