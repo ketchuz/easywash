@@ -1,0 +1,128 @@
+#point-map {
+
+	background-image: url('../img/Textura_Puntos.jpg');
+	background-repeat: repeat;
+	background-size: cover;
+
+	font-family: exo-2;
+	color: white;
+
+	padding: 50px 0;
+
+	h1 {
+		display: inline-block;
+		background-color: #1F72A5;
+		padding: 5px 40px 5px 5px;
+		font-size: 18pt;
+	}
+
+	span.important {
+		color: $orange-color;
+	}
+
+}
+
+#banner {
+	background: 
+	/* top, transparent red, faked with gradient */ 
+	linear-gradient(
+		rgba(35, 31, 32, 0.7), 
+		rgba(35, 31, 32, 0.7)
+		),
+	/* bottom, image */
+	url("../img/Acura-ILX-motor1.jpg");
+	
+	background-size: cover;
+
+	padding: 50px 0;
+
+	.row {
+		position: relative;
+		padding: 75px 0;
+		background-image: url("../img/_servicio1.jpg"), url("../img/Textura_Puntos.jpg");
+		background-repeat: no-repeat, repeat;
+		background-size: cover, contain;
+	}
+
+	color: white;
+	font-family: exo-2-light;
+	font-size: 21pt;
+
+	h1{
+		font-family: exo-2-bold;
+		font-size: 20pt;
+		color: #B7B9BB;
+	}
+
+	.img-holder {
+		position: absolute;
+		bottom: -25px;
+	}
+}
+
+#point-contact {
+	padding: 100px 0;
+	background-image: url("../img/Textura_Puntos.jpg");
+	// background-image: url(http://goo.gl/h6wLLg);
+	background-repeat: repeat;
+	background-size: cover;
+
+	color: white;
+	font-family: exo-2-light;
+
+	.directory {
+
+		.fa {
+			color: #B0E2F9;
+		}
+
+		padding: 50px 0;
+
+		h1 {
+			font-size: 12pt;
+		}
+
+		h4, span {
+			font-size: 8pt;
+		}
+	}
+}
+
+.contact-form {
+	.important {
+		color: #00ADBF;
+	}
+
+	.form-group {
+		margin-bottom: 0;
+		background-image: url("../img/Textura_Lineas.jpg");
+		&:nth-child(even) {background: #0B4F76;}
+		&:nth-child(odd) {background: #003859;}
+
+
+		.form-control {
+			color: white;
+			background: transparent;
+			border-color: transparent;
+		}
+
+		::-webkit-input-placeholder {
+			color: white;
+		}
+
+		:-moz-placeholder { /* Firefox 18- */
+			color: white;  
+		}
+
+		::-moz-placeholder {  /* Firefox 19+ */
+			color: white;  
+		}
+
+		:-ms-input-placeholder {  
+			color: white;  
+		}
+	}
+
+	.grayscale {-webkit-filter: grayscale(100%); filter: grayscale(100%);}
+
+}
