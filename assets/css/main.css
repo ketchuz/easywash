@@ -8178,4 +8178,85 @@ body {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%); }
 
+#company-banner {
+  background-image: url("../img/Principal.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10% 0;
+  color: white;
+  font-family: exo-2-light; }
+  #company-banner .row {
+    margin: 10% 0;
+    padding: 5% 0; }
+
+#company-us {
+  background-image: url("../img/Puntos copy.jpg");
+  background-size: 35px;
+  background-repeat: repeat;
+  color: white;
+  padding: 20% 0;
+  color: white;
+  font-family: exo-2-light;
+  font-size: 15pt; }
+  #company-us h1 {
+    font-family: exo-2-bold;
+    font-size: 30pt; }
+  #company-us img {
+    max-width: 35%;
+    display: inline; }
+
+#company {
+  background: linear-gradient(rgba(35, 31, 32, 0.7), rgba(35, 31, 32, 0.7)), url("../img/Acura-ILX-motor1.jpg");
+  background-size: cover;
+  font-family: exo-2;
+  color: white;
+  padding: 50px 0;
+  padding-bottom: 100px; }
+  #company h1 {
+    font-family: exo-2-bold;
+    font-size: 30pt; }
+  #company .row {
+    background-image: url("../img/Empresa.jpg");
+    background-size: cover;
+    padding: 50px 0;
+    padding-left: 25px;
+    font-size: 10pt;
+    position: relative; }
+  #company .img-holder {
+    position: absolute;
+    bottom: -80px; }
+    #company .img-holder img {
+      -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1); }
+
+#company-vmv {
+  color: white;
+  font-family: exo-2;
+  background-image: url("../img/TexturaHojas.jpg");
+  background-size: cover;
+  padding: 50px 0; }
+  #company-vmv .row {
+    background-image: url("../img/Puntos copy.jpg");
+    background-size: 35px;
+    background-repeat: repeat;
+    position: relative;
+    padding: 20px 7%;
+    padding-bottom: 10%; }
+    #company-vmv .row .fa {
+      font-size: 20pt;
+      color: #F05A28;
+      margin-left: -25px; }
+    #company-vmv .row h4 {
+      font-family: exo-2-bold;
+      margin-bottom: 0; }
+    #company-vmv .row ul {
+      padding-left: 0; }
+    #company-vmv .row img {
+      position: absolute;
+      right: 0;
+      max-width: 30%;
+      bottom: 0; }
+
 /*# sourceMappingURL=main.css.map */
