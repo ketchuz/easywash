@@ -8099,4 +8099,83 @@ body {
     position: absolute;
     bottom: -65px; }
 
+#point-map {
+  background-image: url("../img/Textura_Puntos.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  font-family: exo-2;
+  color: white;
+  padding: 50px 0; }
+  #point-map h1 {
+    display: inline-block;
+    background-color: #1F72A5;
+    padding: 5px 40px 5px 5px;
+    font-size: 18pt; }
+  #point-map span.important {
+    color: #F05A28; }
+
+#banner {
+  background: linear-gradient(rgba(35, 31, 32, 0.7), rgba(35, 31, 32, 0.7)), url("../img/Acura-ILX-motor1.jpg");
+  background-size: cover;
+  padding: 50px 0;
+  color: white;
+  font-family: exo-2-light;
+  font-size: 21pt; }
+  #banner .row {
+    position: relative;
+    padding: 75px 0;
+    background-image: url("../img/_servicio1.jpg"), url("../img/Textura_Puntos.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover, contain; }
+  #banner h1 {
+    font-family: exo-2-bold;
+    font-size: 20pt;
+    color: #B7B9BB; }
+  #banner .img-holder {
+    position: absolute;
+    bottom: -25px; }
+
+#point-contact {
+  padding: 100px 0;
+  background-image: url("../img/Textura_Puntos.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  color: white;
+  font-family: exo-2-light; }
+  #point-contact .directory {
+    padding: 50px 0; }
+    #point-contact .directory .fa {
+      color: #B0E2F9; }
+    #point-contact .directory h1 {
+      font-size: 12pt; }
+    #point-contact .directory h4, #point-contact .directory span {
+      font-size: 8pt; }
+
+.contact-form .important {
+  color: #00ADBF; }
+.contact-form .form-group {
+  margin-bottom: 0;
+  background-image: url("../img/Textura_Lineas.jpg"); }
+  .contact-form .form-group:nth-child(even) {
+    background: #0B4F76; }
+  .contact-form .form-group:nth-child(odd) {
+    background: #003859; }
+  .contact-form .form-group .form-control {
+    color: white;
+    background: transparent;
+    border-color: transparent; }
+  .contact-form .form-group ::-webkit-input-placeholder {
+    color: white; }
+  .contact-form .form-group :-moz-placeholder {
+    /* Firefox 18- */
+    color: white; }
+  .contact-form .form-group ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white; }
+  .contact-form .form-group :-ms-input-placeholder {
+    color: white; }
+.contact-form .grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); }
+
 /*# sourceMappingURL=main.css.map */
