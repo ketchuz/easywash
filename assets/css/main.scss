@@ -16,6 +16,16 @@ $orange-color: #F05A28;
 	src: url(../fonts/Exo2-Light.otf)
 }
 
+@font-face {
+	font-family: 'exo-2.0-regular';
+	src: url(../fonts/exo-2-0-regular.otf)
+}
+
+@font-face {
+	font-family: 'exo-2.0-extra-bold-italic';
+	src: url(../fonts/exo-2-0.extra-bold-italic.otf)
+}
+
 @import '../bower_components/components-font-awesome/scss/font-awesome.scss';
 @import '../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
 @import 'home';
@@ -23,3 +33,4 @@ $orange-color: #F05A28;
 @import 'services';
 @import 'points';
 @import 'company';
+@import 'franchise';

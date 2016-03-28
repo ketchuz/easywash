@@ -8,6 +8,12 @@
 @font-face {
   font-family: exo-2-light;
   src: url(../fonts/Exo2-Light.otf); }
+@font-face {
+  font-family: 'exo-2.0-regular';
+  src: url(../fonts/exo-2-0-regular.otf); }
+@font-face {
+  font-family: 'exo-2.0-extra-bold-italic';
+  src: url(../fonts/exo-2-0.extra-bold-italic.otf); }
 /*!
  *  Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -8267,8 +8273,8 @@ body {
 #company-vmv {
   color: white;
   font-family: exo-2;
-  background-image: url("../img/TexturaHojas.jpg");
-  background-size: cover;
+  background-image: url("../img/Fon1.png");
+  background-size: repeat;
   padding: 50px 0; }
   #company-vmv .row {
     background-image: url("../img/Puntos copy.jpg");
@@ -8291,5 +8297,39 @@ body {
       right: 0;
       max-width: 30%;
       bottom: 0; }
+
+#franchise-banner {
+  background-image: url("../img/Img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  color: white;
+  font-family: 'exo-2.0-regular'; }
+  #franchise-banner h3 {
+    font-family: 'exo-2.0-extra-bold-italic'; }
+  #franchise-banner .row {
+    padding: 10% 0;
+    padding-right: 35px; }
+
+#franchise {
+  font-family: 'exo-2.0-regular'; }
+  #franchise .row-eq-height {
+    overflow: hidden; }
+  #franchise .text-container {
+    color: white;
+    margin-bottom: -99999px;
+    padding-bottom: 99999px; }
+    #franchise .text-container:nth-child(even) {
+      background: #F05A28; }
+    #franchise .text-container:nth-child(odd) {
+      background: #F47C28; }
+    #franchise .text-container p {
+      padding: 27px 0; }
+
+#franchise-dots .row {
+  height: 100px;
+  background-image: url("../img/Puntos copy.jpg");
+  background-size: 35px;
+  background-repeat: repeat; }
 
 /*# sourceMappingURL=main.css.map */
