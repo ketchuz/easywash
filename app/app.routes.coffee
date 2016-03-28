@@ -15,6 +15,8 @@ app.config [ '$routeProvider', '$locationProvider', ($routeProvider, $locationPr
 			templateUrl: '../../components/services/services.html'
 		.when '/servicepoints',
 			templateUrl: '../../components/service-points/servicePoints.html'
+		.when '/franchise',
+			templateUrl: '../../components/franchise/franchise.html'
 		.otherwise
             redirectTo: '/'
 
