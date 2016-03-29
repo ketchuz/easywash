@@ -15,6 +15,42 @@
 				"contact": "CONTACTO",
 				"franchise": "FRANQUICIAS"
 			}
-		} 
+		},
+		"company": {
+			"company-banner": {
+				"choose": "Escoje a quien dedicas el tiempo porque nunca lo ",
+				"recover": "recuperarás"
+			},
+			"company-us": {
+				"who": "¿Quíenes Somos?",
+				"description" : "es una empresa líder socialmente responsable dedicada al eco-lavado automotríz a domicilio"
+			}, 
+			"company" : {
+				"company": "Empresa",
+				"p1" : "Easy Wash es una empresa líder socialmente responsable dedicada al eco-lavado automotriz a domicilio",
+				"p2" : "Nuestra marca está registrada ante el IMPI y en trámite de afiliación a la Asociación Mexicana de Franquicias",
+				"p3" : "Es un concepto innovador y rentable que ofrece el servicio de auto-lavado en el sitio que te localices de manera profesional con productos que cuidan el medio ambiente",
+				"p4" : "En Easy Wash te brindamos un servicio de calidad creando una experiencia única en la optimización de tu tiempo"
+			},
+			"company-vmv" : {
+				"mission" : {
+					"title" : "Misión",
+					"text" : "Transformamos el servicio de lavado de autos a domicilio, brindando un trato dinámico único, \n capaz de cambiar la forma de pensar del cliente y creando un impacto social y ecológico."
+				},
+				"vision" : {
+					"title" : "Visión",
+					"text" : "Somos una empresa de servicios de lavado de autos a domicilio brindando un trato único y creando un impacto social ecológico"
+				},
+				"values" : {
+					"title" : "Valores",
+					"honesty": "HONESTIDAD",
+					"punctuality": "PUNTUALIDAD",
+					"kindness": "AMABILIDAD",
+					"availability": "DISPONIBILIDAD",
+					"team-work": "TRABAJO EN EQUIPO"
+				}
+
+			}
+		}
 	}
 }
