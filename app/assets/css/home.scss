@@ -11,16 +11,27 @@ body {
 
 		.links {
 
+			a {
+				color: black;
+				&:hover {
+					color: $orange-color;
+				}
+			}
+
 			i {    
-			 padding: 18px 14px 0px 9px;
-			 font-size: 22px;
-			 line-height: 28px;
+				padding: 18px 14px 0px 9px;
+				font-size: 22px;
+				line-height: 28px;
 			}
 
 			.icon-white {
 				color: white;
 				margin-right: 10px;
 				font-size: 25px;
+
+				&:hover {
+					color: $orange-color;
+				}
 			}
 
 			.icon-stack {
@@ -42,10 +53,10 @@ body {
 				display: inline-block;
 				margin-right: 15px;			    
 				width: 30px;
-			    background-size: cover;
-			    background-repeat: no-repeat;
-			    background-image: url("../img/whiteDrop.svg");
-			    height: auto;
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-image: url("../img/whiteDrop.svg");
+				height: auto;
 			}
 		}
 	}
@@ -54,33 +65,33 @@ body {
 
 // NAVBAR
 .navbar-default {
-    background-color: $orange-color;
-    border-color: $orange-color;	
+	background-color: $orange-color;
+	border-color: $orange-color;	
 }
-  .navbar-nav {
-    width: 100%;
-    padding: 25px 0;
+.navbar-nav {
+	width: 100%;
+	padding: 25px 0;
     // background-color: $orange-color;
     text-align: center;
     > li {
     	color: white;	
-	      float: none;
-	      display: inline-block;
-	      font-size: 1.1em;
-	      font-family: exo-2-bold;
+    	float: none;
+    	display: inline-block;
+    	font-size: 1.1em;
+    	font-family: exo-2-bold;
 
-	      > a {
-	      	color: white;
-	      }
+    	> a {
+    		color: white;
+    	}
     }
-  }
-  .navbar-default .navbar-nav > li > a {
-      color: white;
-  }
+}
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
 
-  .navbar {
-  	margin-bottom: 0;
-  }
+.navbar {
+	margin-bottom: 0;
+}
 
 // SLIDER
 
@@ -127,7 +138,7 @@ body {
 		h2, h3 {
 			margin:0;
 		}
-	
+
 		h3 {
 			font-family: exo-2-light;
 			margin-bottom: 30px;
@@ -154,8 +165,8 @@ body {
 	}
 
 	.holder1 {
-	    background-image: url("../img/service1.jpg");
-	    background-size: cover;
+		background-image: url("../img/service1.jpg");
+		background-size: cover;
 		.holder {
 			background-image: url("../img/orange-texture.png");
 
@@ -189,11 +200,11 @@ body {
 	font-family: exo-2;
 	color: white;
 	background: 
-	   linear-gradient(
-	     rgba(35, 32, 31, 0.6), 
-	     rgba(35, 32, 31, 0.6)
-	   ),
-	   url("../img/Acura-ILX-motor1.jpg");
+	linear-gradient(
+		rgba(35, 32, 31, 0.6), 
+		rgba(35, 32, 31, 0.6)
+		),
+	url("../img/Acura-ILX-motor1.jpg");
 	background-size: cover;
 
 	.container-fluid {
@@ -225,6 +236,6 @@ body {
 
 	img {
 		margin: 10px;
-    	max-width: 50%;
+		max-width: 50%;
 	}
 }
