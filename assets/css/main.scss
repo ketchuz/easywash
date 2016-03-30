@@ -26,6 +26,7 @@ $orange-color: #F05A28;
 	src: url(../fonts/exo-2-0.extra-bold-italic.otf)
 }
 
+
 @import '../bower_components/components-font-awesome/scss/font-awesome.scss';
 @import '../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
 @import 'home';
@@ -34,3 +35,17 @@ $orange-color: #F05A28;
 @import 'points';
 @import 'company';
 @import 'franchise';
+
+pre {
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	background: transparent;
+	word-break: keep-all; /*this stops the word breaking*/
+	color: white;
+	border: none;
+	font-family: exo-2;
+	overflow: hidden;
+}
