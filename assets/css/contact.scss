@@ -1,0 +1,75 @@
+.contact {
+	padding: 100px 0;
+	background-image: url("../img/Puntos copy.jpg");
+	// background-image: url(http://goo.gl/h6wLLg);
+	background-repeat: repeat;
+	background-size: 35px;
+
+	color: white;
+	font-family: exo-2-light;
+
+	pre {
+		padding: 0;
+		font-family: exo-2-light;
+	}
+
+	.directory {
+
+		.fa {
+			color: #B0E2F9;
+		}
+
+		padding: 50px 0;
+
+		h1 {
+			font-size: 12pt;
+		}
+
+		h4, span {
+			font-size: 8pt;
+		}
+	}
+
+	.contact-form {
+		.important {
+			color: #00ADBF;
+		}
+
+		.form-group {
+			margin-bottom: 0;
+			background-image: url("../img/Textura_Lineas.jpg");
+			&:nth-child(even) {background: #0B4F76;}
+			&:nth-child(odd) {background: #003859;}
+
+
+			.form-control {
+				color: white;
+				background: transparent;
+				border-color: transparent;
+			}
+
+			::-webkit-input-placeholder {
+				color: white;
+			}
+
+			:-moz-placeholder { /* Firefox 18- */
+				color: white;  
+			}
+
+			::-moz-placeholder {  /* Firefox 19+ */
+				color: white;  
+			}
+
+			:-ms-input-placeholder {  
+				color: white;  
+			}
+		}
+
+		textarea {   
+			resize: none;
+		}
+
+		.grayscale {-webkit-filter: grayscale(100%); filter: grayscale(100%);}
+
+	}
+}
