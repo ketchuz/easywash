@@ -8110,9 +8110,11 @@ body {
 
 #easy-fast .row {
   padding: 25px 0;
+  position: relative;
   background-image: url("../img/_servicio1.jpg"), url("../img/Textura_Puntos.jpg");
   background-repeat: no-repeat, repeat;
-  background-size: cover, contain; }
+  background-size: contain, contain;
+  background-position: 50%; }
 #easy-fast .img-holder > img {
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
