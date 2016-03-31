@@ -50,3 +50,47 @@ pre {
 	font-family: exo-2;
 	overflow: hidden;
 }
+
+@media (min-width: $screen-sm) and (max-width: $screen-md) {
+
+	#banner {
+		.row {
+			padding: 25px 0;
+		}
+	}
+
+	#directory {
+		[class*="col-"] {
+			margin-top: 20px;
+		}
+	}
+
+	#home-services {
+
+		.row-eq-height {
+			max-height: 400px;
+
+			.holder {
+				margin-top: 85px;
+			}
+		}
+
+		.holder1 {
+			background-size: 300%;
+			background-position: 15% 0;
+		}
+
+		.holder2 {
+			background-size: 180%;
+			background-position: 15% -300px;
+		}
+
+		.holder3 {
+			background-repeat: no-repeat;
+			background-size: 250%;
+			background-position: 29% 0px;
+
+		}
+	}
+
+}

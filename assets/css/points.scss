@@ -38,10 +38,11 @@
 
 	.row {
 		position: relative;
-		padding: 75px 0;
+		padding: 25px 0;
+		background-position: 50%;
 		background-image: url("../img/_servicio1.jpg"), url("../img/Puntos copy.jpg");
 		background-repeat: no-repeat, repeat;
-		background-size: cover, 35px;
+		background-size: contain, 35px;
 	}
 
 	color: white;
