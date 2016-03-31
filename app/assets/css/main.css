@@ -7975,6 +7975,7 @@ body {
     background-color: black;
     font-family: exo-2; }
     #home-invest .holder a {
+      margin-top: 30px;
       font-family: exo-2-light;
       background-color: transparent;
       border-color: #F05A28;
@@ -7987,6 +7988,11 @@ body {
       font-family: exo-2-light;
       margin-bottom: 30px; }
 
+#home-services .row-eq-height {
+  overflow: hidden; }
+#home-services .holder1, #home-services .holder2, #home-services .holder3 {
+  margin-bottom: -99999px;
+  padding-bottom: 99999px; }
 #home-services .holder {
   font-family: exo-2-light;
   background-image: url("../img/black-texture.png");
@@ -7998,20 +8004,20 @@ body {
     font-family: exo-2-bold; }
 #home-services .holder1 {
   background-image: url("../img/service1.jpg");
-  background-size: cover; }
+  background-size: 230%;
+  background-repeat: no-repeat; }
   #home-services .holder1 .holder {
     background-image: url("../img/orange-texture.png"); }
 #home-services .holder2 {
   background-image: url("../img/service2.jpg");
   background-size: 140%;
-  background-position: 10% 50%;
-  background-repeat: no-repeat; }
+  background-position-y: -150px; }
   #home-services .holder2 .holder {
     background-image: url("../img/black-texture.png"); }
 #home-services .holder3 {
   background-image: url("../img/service3.jpg");
-  background-size: cover;
-  background-position: 50%; }
+  background-size: 280%;
+  background-position-y: -150px; }
 
 #home-time {
   font-family: exo-2;
@@ -8170,10 +8176,11 @@ body {
   font-size: 21pt; }
   #banner .row {
     position: relative;
-    padding: 75px 0;
+    padding: 25px 0;
+    background-position: 50%;
     background-image: url("../img/_servicio1.jpg"), url("../img/Puntos copy.jpg");
     background-repeat: no-repeat, repeat;
-    background-size: cover, 35px; }
+    background-size: contain, 35px; }
   #banner pre {
     font-size: 21pt;
     font-family: exo-2-light; }
@@ -8412,5 +8419,27 @@ pre {
   border: none;
   font-family: exo-2;
   overflow: hidden; }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #banner .row {
+    padding: 25px 0; }
+
+  #directory [class*="col-"] {
+    margin-top: 20px; }
+
+  #home-services .row-eq-height {
+    max-height: 400px; }
+    #home-services .row-eq-height .holder {
+      margin-top: 85px; }
+  #home-services .holder1 {
+    background-size: 300%;
+    background-position: 15% 0; }
+  #home-services .holder2 {
+    background-size: 180%;
+    background-position: 15% -300px; }
+  #home-services .holder3 {
+    background-repeat: no-repeat;
+    background-size: 250%;
+    background-position: 29% 0px; } }
 
 /*# sourceMappingURL=main.css.map */
