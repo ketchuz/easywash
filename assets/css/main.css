@@ -7961,35 +7961,34 @@ body {
 #slider .container-fluid {
   padding: 0; }
 
-#home-invest {
-  background-image: url("../img/TexturaHojas.jpg");
-  background-size: cover; }
-  #home-invest .container-fluid {
-    padding: 0; }
-  #home-invest .holder {
-    background-image: url("../img/Textura_Lineas.jpg");
-    background-size: contain;
-    margin: 45px 0;
-    color: white;
-    padding: 150px 0;
-    background-color: black;
-    font-family: exo-2; }
-    #home-invest .holder a {
-      margin-top: 30px;
-      font-family: exo-2-light;
-      background-color: transparent;
-      border-color: #F05A28;
-      padding: 3px 50px; }
-      #home-invest .holder a:hover {
-        background-color: #F05A28; }
-    #home-invest .holder h2, #home-invest .holder h3 {
-      margin: 0; }
-    #home-invest .holder h3 {
-      font-family: exo-2-light;
-      margin-bottom: 30px; }
+#home-invest .container-fluid {
+  padding: 0; }
+#home-invest .holder {
+  background-image: url("../img/Textura_Lineas.jpg");
+  background-size: contain;
+  color: white;
+  padding: 150px 0;
+  background-color: black;
+  font-family: exo-2; }
+  #home-invest .holder a {
+    margin-top: 30px;
+    font-family: exo-2-light;
+    background-color: transparent;
+    border-color: #F05A28;
+    padding: 3px 50px; }
+    #home-invest .holder a:hover {
+      background-color: #F05A28; }
+  #home-invest .holder h2, #home-invest .holder h3 {
+    margin: 0; }
+  #home-invest .holder h3 {
+    font-family: exo-2-light;
+    margin-bottom: 30px; }
 
 #home-services .row-eq-height {
-  overflow: hidden; }
+  overflow: hidden;
+  background-image: url("../img/Puntos copy.jpg");
+  background-size: 35px;
+  background-repeat: repeat; }
 #home-services .holder1, #home-services .holder2, #home-services .holder3 {
   margin-bottom: -99999px;
   padding-bottom: 99999px; }
@@ -8037,6 +8036,7 @@ body {
   #home-time .title {
     padding: 125px 0; }
   #home-time .row {
+    position: relative;
     margin: 60px 0;
     background-image: url("../img/time-bg.png"); }
 
@@ -8061,8 +8061,9 @@ body {
     #philosophy .text span {
       color: #C4D82D; }
   #philosophy .img-holder {
-    padding: 40px 0; }
-    #philosophy .img-holder p {
+    padding: 40px 0;
+    min-height: 234px; }
+    #philosophy .img-holder pre {
       margin: 0;
       padding: 50px 0;
       color: #00B2B0; }
@@ -8377,6 +8378,9 @@ body {
       font-size: 12pt; }
     .contact .directory h4, .contact .directory span {
       font-size: 8pt; }
+  .contact .message-container {
+    position: absolute;
+    bottom: 0; }
   .contact .contact-form .important {
     color: #00ADBF; }
   .contact .contact-form .form-group {
@@ -8427,6 +8431,9 @@ pre {
   #directory [class*="col-"] {
     margin-top: 20px; }
 
+  #philosophy .img-holder:nth-of-type(1) {
+    background-position-y: 0%; }
+
   #home-services .row-eq-height {
     max-height: 400px; }
     #home-services .row-eq-height .holder {
@@ -8441,5 +8448,33 @@ pre {
     background-repeat: no-repeat;
     background-size: 250%;
     background-position: 29% 0px; } }
+@media (min-width: 0) and (max-width: 768px) {
+  #philosophy .img-holder:nth-of-type(1) {
+    background-position-y: 30%; }
+
+  .message-container {
+    position: relative !important; }
+
+  #banner #helper, #easy-full .helper, #easy-fast .helper, #home-time .helper {
+    min-height: 100%;
+    background: black;
+    position: absolute;
+    z-index: 11;
+    opacity: 0.7; }
+
+  #home-services .holder1, #home-services .holder2, #home-services .holder3 {
+    margin-bottom: 0;
+    padding-bottom: 0; }
+
+  #easy-full .img-holder > img {
+    position: absolute;
+    bottom: 0; }
+
+  #directory {
+    text-align: center; }
+    #directory .col-xs-offset-2 {
+      margin-top: 25px; }
+    #directory h4, #directory span {
+      font-size: 10pt; } }
 
 /*# sourceMappingURL=main.css.map */

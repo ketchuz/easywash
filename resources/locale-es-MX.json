@@ -14,6 +14,20 @@
 				"service-points": "PUNTOS DE SERVICIO",
 				"contact": "CONTACTO",
 				"franchise": "FRANQUICIAS"
+			},
+			"home-invest": {
+				"title" : "¿No sabes donde invertir tu dinero?",
+				"text" : "Sé parte de la red franquicias.",
+				"enter" : "ENTRAR",
+				"quote" : "COTIZAR"
+			},
+			"home-services" : {
+				"easy-fast" : "Lavado de carrocería,\nAbrillantador y\nProtector de Plásticos",
+				"easy-cool" : "Lavado de carrocería,\nAbrillantador, Protector de Plásticos\ny Aspirado",
+				"easy-full" : "Lavado de carrocería, Abrillantador,\nProtector de Plásticos, Aspirado\nmás Lavado de motor y vestiduras"
+			},
+			"home-time" : {
+				"text" : "El tiempo no se puede parar solo se puede aprovechar."
 			}
 		},
 		"company": {
@@ -57,7 +71,7 @@
 			"p1" : "Nos especializamos en el servicio de lavado de coches casa\ncreando un servicio único en su tipo.\n\nCon nuestra filosofía de trabajo de cuidar y asistir a los más mínimos detalles, hemos conseguido ser diferente como una empresa profesional \n",
 			"important": "comprometida con la sociedad y el medio ambiente.",
 			"p2" : "\n\nCreamos una relación de amistad con nuestros socios de negocios y clientes, ya que todos ellos son pilares importantes del crecimiento de Easy Wash.",
-			"img-title": "Nuestra mejor negocio es su completa satisfacción"
+			"img-title": "Nuestro mejor negocio \nes su completa satisfacción"
 		},
 		"service-points" : {
 			"point-map" : {

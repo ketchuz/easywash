@@ -65,6 +65,10 @@ pre {
 		}
 	}
 
+	#philosophy .img-holder:nth-of-type(1) {
+		background-position-y: 0%;
+	}
+
 	#home-services {
 
 		.row-eq-height {
@@ -93,4 +97,45 @@ pre {
 		}
 	}
 
+}
+
+@media (min-width: 0) and (max-width: $screen-sm) {
+	#philosophy .img-holder:nth-of-type(1) {
+		background-position-y: 30%;
+	}
+
+	.message-container {
+		position: relative !important;
+	}
+
+	#banner #helper, #easy-full .helper, #easy-fast .helper, #home-time .helper {
+		min-height: 100%;
+		background: black;
+		position: absolute;
+		z-index: 11;
+		opacity: 0.7;
+
+	}
+
+	#home-services .holder1, #home-services .holder2, #home-services .holder3 {
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	#easy-full .img-holder > img {
+		position: absolute;
+		bottom: 0;
+	}
+
+	#directory {
+		text-align: center;
+
+		.col-xs-offset-2 {
+			margin-top: 25px;
+		}
+
+		h4, span {
+			font-size: 10pt;
+		}
+	}
 }

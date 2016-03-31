@@ -14,6 +14,20 @@
 				"service-points": "SERVICE POINTS",
 				"contact": "CONTACT",
 				"franchise": "FRANCHISES"
+			},
+			"home-invest": {
+				"title" : "Don't you know where to invest your money?",
+				"text" : "Be part of the franchises network.",
+				"enter" : "ENTER",
+				"quote" : "QUOTE"
+			},
+			"home-services" : {
+				"easy-fast" : "Lavado de carrocería,\nAbrillantador y\nProtector de Plásticos",
+				"easy-cool" : "Lavado de carrocería,\nAbrillantador, Protector de Plásticos\ny Aspirado",
+				"easy-full" : "Lavado de carrocería, Abrillantador,\nProtector de Plásticos, Aspirado\nmás Lavado de motor y vestiduras"
+			},
+			"home-time" : {
+				"text" : "Time cannot be stopped, you can just make the best out of it."
 			}
 		},
 		"company": {

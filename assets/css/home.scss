@@ -105,8 +105,8 @@ body {
 // HOME SECTION
 #home-invest {
 
-	background-image: url("../img/TexturaHojas.jpg");
-	background-size: cover;
+	// background-image: url("../img/Fon1.png");
+	// background-size: cover;
 
 	.container-fluid {
 		padding: 0;
@@ -115,7 +115,6 @@ body {
 	.holder {
 		background-image: url("../img/Textura_Lineas.jpg");
 		background-size: contain;
-		margin: 45px 0;
 		color: white;
 		padding: 150px 0;
 		background-color: black;
@@ -153,6 +152,9 @@ body {
 
 	.row-eq-height {
 		overflow: hidden; 
+		background-image: url("../img/Puntos copy.jpg");
+		background-size: 35px;
+		background-repeat: repeat;
 	}
 
 	.holder1, .holder2, .holder3 {
@@ -236,6 +238,7 @@ body {
 	}
 
 	.row {
+		position: relative;
 		margin: 60px 0;
 		background-image: url("../img/time-bg.png");
 	}
