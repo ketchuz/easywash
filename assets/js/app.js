@@ -72,10 +72,17 @@
   app = angular.module('easyWash');
 
   app.controller('contactFormCtrl', [
-    '$scope', function($scope) {
-      $scope.test = 'Contorller ';
-      return $scope.sendForm = function() {
-        return alert('Sending form');
+    '$scope', '$http', function($scope, $http) {
+      $scope.contact;
+      return $scope.sendForm = function(contact) {
+        console.log(contact);
+        $http.post("http://localhost:3000/sendEmail", {
+          myContact: contact
+        }).success(function(data, status) {
+          return console.log(data);
+        });
+        alert('Muchas gracias! Pronto nos pondremos en conacto con usted.');
+        return $scope.contact = null;
       };
     }
   ]);
