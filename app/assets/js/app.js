@@ -76,7 +76,7 @@
       $scope.contact;
       return $scope.sendForm = function(contact) {
         console.log(contact);
-        $http.post("http://localhost:3000/sendEmail", {
+        $http.post("https://blueberry-tart-78676.herokuapp.com/sendEmail", {
           myContact: contact
         }).success(function(data, status) {
           return console.log(data);
