@@ -8100,12 +8100,20 @@ body {
   #easy-fast .washing-holder, #easy-cool .washing-holder, #easy-full .washing-holder {
     margin: 10px 0;
     margin-top: 0; }
+    #easy-fast .washing-holder .row, #easy-cool .washing-holder .row, #easy-full .washing-holder .row {
+      background-image: none; }
+      #easy-fast .washing-holder .row [class*="col-"], #easy-cool .washing-holder .row [class*="col-"], #easy-full .washing-holder .row [class*="col-"] {
+        padding: 0; }
+      #easy-fast .washing-holder .row [class*="col-"]:nth-child(1), #easy-cool .washing-holder .row [class*="col-"]:nth-child(1), #easy-full .washing-holder .row [class*="col-"]:nth-child(1) {
+        text-align: right; }
+      #easy-fast .washing-holder .row [class*="col-"]:nth-child(3), #easy-cool .washing-holder .row [class*="col-"]:nth-child(3), #easy-full .washing-holder .row [class*="col-"]:nth-child(3) {
+        text-align: left; }
     #easy-fast .washing-holder .washing-num, #easy-cool .washing-holder .washing-num, #easy-full .washing-holder .washing-num {
       background-color: #0B4F76;
       color: white;
       font-size: 14pt;
       padding: 2px 10px;
-      margin: 0 5px; }
+      margin: 10px 5px; }
     #easy-fast .washing-holder .odd, #easy-cool .washing-holder .odd, #easy-full .washing-holder .odd {
       background-color: #003555; }
   #easy-fast .icon, #easy-cool .icon, #easy-full .icon {
@@ -8424,6 +8432,10 @@ pre {
   font-family: exo-2;
   overflow: hidden; }
 
+select {
+  color: #535151;
+  line-height: 1 !important; }
+
 @media (min-width: 768px) and (max-width: 992px) {
   #banner .row {
     padding: 25px 0; }
@@ -8433,6 +8445,12 @@ pre {
 
   #philosophy .img-holder:nth-of-type(1) {
     background-position-y: 0%; }
+
+  #easy-fast .img-holder > img {
+    width: 100%; }
+
+  .washing-holder [class*="col-"] {
+    margin-top: 12px; }
 
   #home-services .row-eq-height {
     max-height: 400px; }
@@ -8462,13 +8480,20 @@ pre {
     z-index: 11;
     opacity: 0.7; }
 
+  .washing-holder [class*="col-"] {
+    margin-top: 12px;
+    text-align: center !important; }
+
+  #easy-fast .img-holder {
+    position: absolute;
+    bottom: 0; }
+
   #home-services .holder1, #home-services .holder2, #home-services .holder3 {
     margin-bottom: 0;
     padding-bottom: 0; }
 
-  #easy-full .img-holder > img {
-    position: absolute;
-    bottom: 0; }
+  #easy-fast .img-holder > img {
+    width: 100%; }
 
   #directory {
     text-align: center; }

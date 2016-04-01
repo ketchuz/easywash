@@ -51,6 +51,12 @@ pre {
 	overflow: hidden;
 }
 
+select {
+	color: rgb(83, 81, 81);
+	line-height: 1 !important;
+
+}
+
 @media (min-width: $screen-sm) and (max-width: $screen-md) {
 
 	#banner {
@@ -67,6 +73,17 @@ pre {
 
 	#philosophy .img-holder:nth-of-type(1) {
 		background-position-y: 0%;
+	}
+
+	#easy-fast .img-holder > img {
+		width: 100%;
+	}
+
+	.washing-holder {
+		[class*="col-"] {
+			margin-top: 12px;
+			// text-align: center !important;
+		}
 	}
 
 	#home-services {
@@ -117,14 +134,27 @@ pre {
 
 	}
 
+	.washing-holder {
+		[class*="col-"] {
+			margin-top: 12px;
+			text-align: center !important;
+		}
+
+
+	}
+
+	#easy-fast .img-holder{
+		position: absolute;
+		bottom: 0;
+	}
+
 	#home-services .holder1, #home-services .holder2, #home-services .holder3 {
 		margin-bottom: 0;
 		padding-bottom: 0;
 	}
 
-	#easy-full .img-holder > img {
-		position: absolute;
-		bottom: 0;
+	#easy-fast .img-holder > img {
+		width: 100%;
 	}
 
 	#directory {
