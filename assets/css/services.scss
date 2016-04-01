@@ -29,12 +29,27 @@ $darker-blue : #003555;
 		margin: 10px 0;
 		margin-top: 0;
 
+		.row {
+			background-image: none;
+
+			[class*="col-"] {
+				padding: 0;
+			}
+
+			[class*="col-"]:nth-child(1) {
+				text-align: right;
+			}
+			[class*="col-"]:nth-child(3) {
+				text-align: left;
+			}
+		}
+
 		.washing-num {
 			background-color: $light-blue;
 			color: white;
 			font-size: 14pt;
 			padding: 2px 10px;
-			margin: 0 5px;
+			margin: 10px 5px;
 		}
 
 		.odd {
