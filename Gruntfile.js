@@ -50,11 +50,11 @@ module.exports = function (grunt) {
 		connect: {
 			server: {
 				options: {
-					port: 8989,
+					port: 3002,
 					host: 'localhost',
 					base: 'app/',
 					keepalive: true,
-					open: 'localhost:8989/app/index.html'
+					open: 'localhost:3002/app/index.html'
 				}
 			}
 		},

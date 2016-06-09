@@ -8362,6 +8362,19 @@ body {
     #franchise .text-container p {
       padding: 27px 0; }
 
+#youtube {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0; }
+  #youtube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
 #franchise-dots .row {
   height: 100px;
   background-image: url("../img/Puntos copy.jpg");
